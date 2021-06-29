@@ -27,7 +27,7 @@ function render(data) {
   }
   if (!data.length) {
     defined.style.display = "block";
-  }
+  } else defined.style.display = "none";
   data.forEach((el) => {
     const html = `
 
