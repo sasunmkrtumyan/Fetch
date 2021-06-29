@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.search {
+    padding: 30px;
+    background-image: linear-gradient(to bottom right, red 20%, blue, orange 80%);
+    text-align: center;
+}
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: wheat;
+    transition: 0.4s;
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: rgb(148, 148, 148);
+    color: black;
+    cursor: pointer;
+}
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    column-gap: 15px;
+    padding: 30px;
+}
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 3px 5px 15px grey;
+    background-color: rgb(238, 238, 238);
+}
+image{
+    width: 100%;
+    object-fit: contain;
+}
+h3 {
+    padding: 10px;
+}
+h4 {
+    padding: 10px;
+}
